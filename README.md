@@ -91,7 +91,7 @@ Hello i am TELEGRAM GROUP MANAGEMENT BOT MY NAME IS Evil-Inside ⚡ i have both 
 
 - `STRICT_GBAN` : Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned. {`True`}
 
-- `SUDO_USERS` : A space separated list of user IDs who you want to assign as sudo users.
+- `SUDO_USERS` : A space separated a list of user IDs who you want to assign as sudo users.
 
 - `TIGER_USERS` : A space separated list of user IDs who you wanna assign as tiger users.
 
