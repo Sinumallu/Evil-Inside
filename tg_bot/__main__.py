@@ -28,7 +28,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 *𝙷𝚢 {} , 𝙼𝚢 𝙽𝚊𝚖𝚎 𝚒𝚜 {}!*
 
-𝙸 𝚊𝚖 𝚊𝚗 *𝚂𝚄𝙿𝙴𝚁*  𝚐𝚛𝚘𝚞𝚙 𝚖𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝 𝚋𝚘𝚝 made by zinan tech 2.O.
+𝙸 𝚊𝚖 𝚊𝚗 *𝚂𝚄𝙿𝙴𝚁*  𝚐𝚛𝚘𝚞𝚙 𝚖𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝 𝚋𝚘𝚝 made by *ZINAN_TECH2.O*.
 
 𝚈𝚘𝚞 𝚌𝚊𝚗 𝚏𝚒𝚗𝚍 𝚝𝚑𝚎 𝚕𝚒𝚜𝚝 𝚘𝚏 𝚊𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜 𝚠𝚒𝚝𝚑 /help
 
@@ -144,12 +144,12 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="𝙷𝙴𝙻𝙿",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="𝙲𝙷𝙰𝙽𝙽𝙴𝙻",
-                                                                       url="https://t.me/xs45fv7v8hv7tv7gg7v7gvt7c7tc9")],
-                                                                                   
-                                                              
-                                                                                   
-                                                                       
-                                                                         
+                                                                       url="t.me/M_STER_TECH")],
+                                                                                   [InlineKeyboardButton(text= "𝙳𝙴𝙿𝙻𝙾𝚈",
+                                                                       url="https://youtu.be/Bz8AUvN5bSo"),
+                                                                                   InlineKeyboardButton(text="𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴",
+                                                                       url="https://github.com/PANDITHAN/Evil-Inside")
+                                                                                 ]]))
 
     else:
         update.effective_message.reply_text("Yuss, I am Already Online")
